@@ -1,3 +1,3 @@
-# exceptions-mappers
+# Itspire Exceptions - Mappers
 
-Itspire - Exceptions Mappers
+This library follows the PSR-12 convention.

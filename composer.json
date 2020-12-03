@@ -1,0 +1,37 @@
+{
+    "name": "itspire/exceptions-mappers",
+    "description": "Itspire Exceptions - Mappers",
+    "type": "library",
+    "keywords": ["itspire", "exception", "mapper", "response"],
+    "homepage": "http://www.itspire.fr",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ryan RAJKOMAR",
+            "email": "ryan.rajkomar@itspire.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "itspire/exceptions": "~1.0",
+        "itspire/http-common": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itspire\\Exception\\Mapper\\": "src/main/php"
+        }
+    },
+    "require-dev": {
+        "pdepend/pdepend": "~2.8",
+        "phploc/phploc": "~7.0",
+        "roave/security-advisories": "dev-latest",
+        "sebastian/phpcpd": "~6.0",
+        "squizlabs/php_codesniffer": "~3.5",
+        "symfony/phpunit-bridge": "~5.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Itspire\\Exception\\Mapper\\Test\\": "src/test/php"
+        }
+    }
+}
